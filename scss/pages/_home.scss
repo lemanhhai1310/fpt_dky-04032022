@@ -13,9 +13,10 @@
       @extend .fz-19;
     }
     &__label{
-
+      color: #000;
     }
     &__input{
+      border-color: #D3D3D4;
       @include media-breakpoint-up('m'){
         //height: 50px;
       }
@@ -40,6 +41,50 @@
           left: 0;
           top: 50%;
           transform: translateY(-50%);
+        }
+      }
+    }
+  }
+  $x:10px;
+  &__btn-back{
+    background: #666666 !important;
+    padding: 0 20px;
+    clip-path: polygon(#{$x} 0, 100% 0, 100% 100%, #{$x} 100%, 0 50%);
+    span{
+      font-family: $font-Roboto-Bold;
+    }
+  }
+  &__btn-step{
+    background: #00CB88 !important;
+    padding: 0 20px;
+    clip-path: polygon(calc(100% - #{$x}) 0, 100% 50%, calc(100% - #{$x}) 100%, 0 100%, 0 0);
+    span{
+      font-family: $font-Roboto-Bold;
+    }
+  }
+  &__tab{
+    >li{
+      >a{
+        font-family: $font-Roboto-Bold;
+        @extend .fz-16;
+        text-align: center;
+        min-height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 10px;
+        color: #4D4D4D;
+        span{
+          @extend .line-clamp-1;
+        }
+      }
+      &.uk-active{
+        >a{
+          background-color: #00CB88;
+          color: #ffffff;
+          border-color: #00CB88;
+          $x:15px;
+          clip-path: polygon(calc(100% - #{$x}) 0, 100% 50%, calc(100% - #{$x}) 100%, 0 100%, 0 0);
         }
       }
     }

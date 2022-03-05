@@ -19,11 +19,96 @@
         <div class="home__section uk-width-1-1 uk-section-small">
             <div class="uk-container uk-container-small">
                 <div class="home__card1 uk-card uk-card-default">
-                    <div>
-
+                    <div class="uk-background-muted uk-padding-remove">
+                        <ul class="uk-child-width-expand home__tab" uk-tab>
+                            <li class="uk-active"><a href="#"><span>THÔNG TIN THÍ SINH</span></a></li>
+                            <li><a href="#"><span>THÔNG TIN TRƯỜNG THPT</span></a></li>
+                            <li><a href="#"><span>THÔNG TIN LIÊN HỆ</span></a></li>
+                            <li><a href="#"><span>THÔNG TIN ĐĂNG KÝ</span></a></li>
+                        </ul>
                     </div>
                     <div class="home__card1__body uk-card-body">
-
+                        <div class="uk-flex-center" uk-grid>
+                            <div class="uk-width-4-5@m">
+                                <div class="item__40 uk-form-stacked">
+                                    <div class="uk-child-width-1-1 uk-grid-small" uk-grid>
+                                        <div>
+                                            <div class="uk-text-uppercase home__card__title uk-text-center">THÔNG TIN THÍ SINH</div>
+                                        </div>
+                                        <div>
+                                            <div class="uk-child-width-1-3@m uk-grid-small" uk-grid>
+                                                <div>
+                                                    <label class="uk-form-label home__card__label" for="form-stacked-text">Họ tên thí sinh</label>
+                                                    <div class="uk-form-controls">
+                                                        <input class="home__card__input uk-input uk-border-rounded" id="form-stacked-text" type="text" placeholder="">
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <label class="uk-form-label home__card__label" for="form-stacked-text">Số điện thoại</label>
+                                                    <div class="uk-form-controls">
+                                                        <input class="home__card__input uk-input uk-border-rounded" id="form-stacked-text" type="text" placeholder="">
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <label class="uk-form-label home__card__label" for="form-stacked-text">Email</label>
+                                                    <div class="uk-form-controls">
+                                                        <input class="home__card__input uk-input uk-border-rounded" id="form-stacked-text" type="text" placeholder="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="uk-child-width-1-3@m uk-grid-small" uk-grid>
+                                                <div>
+                                                    <label class="uk-form-label home__card__label" for="form-stacked-text">Giới tính</label>
+                                                    <div class="uk-form-controls">
+                                                        <input class="home__card__input uk-input uk-border-rounded" id="form-stacked-text" type="text" placeholder="">
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <label class="uk-form-label home__card__label" for="form-stacked-text">Ngày/ tháng / năm sinh</label>
+                                                    <div class="uk-form-controls">
+                                                        <input class="home__card__input uk-input uk-border-rounded" id="form-stacked-text" type="text" placeholder="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="uk-child-width-1-3@m uk-grid-small" uk-grid>
+                                                <div>
+                                                    <label class="uk-form-label home__card__label" for="form-stacked-text">Số CMND / CCCD</label>
+                                                    <div class="uk-form-controls">
+                                                        <input class="home__card__input uk-input uk-border-rounded" id="form-stacked-text" type="text" placeholder="">
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <label class="uk-form-label home__card__label" for="form-stacked-text">Cấp ngày</label>
+                                                    <div class="uk-form-controls">
+                                                        <input class="home__card__input uk-input uk-border-rounded" id="form-stacked-text" type="text" placeholder="">
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <label class="uk-form-label home__card__label" for="form-stacked-text">Nơi cấp</label>
+                                                    <div class="uk-form-controls">
+                                                        <input class="home__card__input uk-input uk-border-rounded" id="form-stacked-text" type="text" placeholder="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item__40">
+                                    <div class="uk-flex-middle" uk-grid>
+                                        <div class="uk-width-expand">
+                                            <button class="home__btn-back uk-button uk-button-secondary uk-border-rounded"><span>QUAY LẠI</span></button>
+                                        </div>
+                                        <div class="uk-width-auto">
+                                            <button class="home__btn-step uk-button uk-button-primary uk-border-rounded"><span>BƯỚC TIẾP THEO</span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
