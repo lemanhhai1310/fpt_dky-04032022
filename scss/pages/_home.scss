@@ -1,0 +1,68 @@
+.home{
+  &__section{
+
+  }
+  &__card{
+    @include media-breakpoint-up('m'){
+      $x:16px;
+      border-radius: #{$x};
+    }
+    &__title{
+      font-family: $font-Roboto-Bold;
+      color: #00CB88;
+      @extend .fz-19;
+    }
+    &__label{
+
+    }
+    &__input{
+      @include media-breakpoint-up('m'){
+        //height: 50px;
+      }
+    }
+  }
+  &__nav-item{
+    &:nth-child(n+2){
+      position: relative;
+      @include media-breakpoint-up('m'){
+        $x:50px;
+        margin-left: #{$x};
+        padding-left: #{$x};
+      }
+      &:before{
+        @include media-breakpoint-up('m'){
+          content: "";
+          width: 1px;
+          height: 70px;
+          display: flex;
+          background-color: #fff;
+          position: absolute;
+          left: 0;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+      }
+    }
+  }
+  &__txt1{
+    color: #ffffff;
+    @extend .fz-32;
+    font-family: $font-Roboto-Black;
+    line-height: (38/32);
+  }
+  &__txt2{
+    color: #ffffff;
+    @extend .fz-25;
+    font-family: $font-Roboto-Bold;
+    line-height: (29/25);
+  }
+  &__card1{
+    $x:16px;
+    @include media-breakpoint-up('m'){
+      border-radius: 0 0 #{$x} #{$x};
+    }
+    &__body{
+
+    }
+  }
+}
